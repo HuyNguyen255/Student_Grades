@@ -27,11 +27,11 @@
 
 ## Conclusion 📝
 
-## [Hình ảnh từ file Power BI]()
+## [Hình ảnh từ file Power BI](https://github.com/HuyNguyen255/Student_Grades/blob/bfb12fb119c8d845daf749716ad553e1bb29f6a6/Student_Grading.pbix)
 
-![Hình 1]()
+![Hình 1](https://github.com/HuyNguyen255/Student_Grades/blob/bfb12fb119c8d845daf749716ad553e1bb29f6a6/Pictures/main_dashboard.png)
 
-![Hình 2]()
+![Hình 2](https://github.com/HuyNguyen255/Student_Grades/blob/bfb12fb119c8d845daf749716ad553e1bb29f6a6/Pictures/correlation%20table.png)
 
 
 
