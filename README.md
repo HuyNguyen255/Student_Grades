@@ -37,8 +37,8 @@ FROM Students_grade;
 SELECT 
     Gender,
     FORMAT(COUNT(*), '#,##') Number_students,
-    FORMAT(AVG(Study_Hours_per_Week), '#,##') Study_Hours_per_week,
-    FORMAT(AVG(Sleep_Hours_per_Night), '#,##') Sleep_Hours_per_night,
+    AVG(Study_Hours_per_Week) Study_Hours_per_week,
+    AVG(Sleep_Hours_per_Night) Sleep_Hours_per_night,
     CONVERT(AVG(Total_Score), DECIMAL(5,2)) Average_score
 FROM Students_grade 
 GROUP BY Gender;
