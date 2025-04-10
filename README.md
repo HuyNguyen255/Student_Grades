@@ -190,8 +190,8 @@ FROM
 ```sql
 WITH main_table as
   (SELECT 
-  	ROW_NUMBER() OVER (ORDER BY Score ASC) Row_num,
-    Score
+	ROW_NUMBER() OVER (ORDER BY Score ASC) Row_num,
+    	Score
   FROM 
     (SELECT DISTINCT
     	total_score Score
