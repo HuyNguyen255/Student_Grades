@@ -198,14 +198,14 @@ WITH main_table as
     FROM students_grade) as table1),
 median_value as
 (SELECT 
-	CASE
+CASE
     WHEN COUNT(*) % 2 <> 0 THEN (COUNT(*) + 1) / 2
     ELSE COUNT(*) / 2
-	END Value1,
-	CASE
+END Value1,
+CASE
     WHEN COUNT(*) % 2 <> 0 THEN (COUNT(*) +1) /2
     ELSE (COUNT(*) + 2) / 2
-	END Value2
+END Value2
 FROM main_table),
 final_table as
 (
