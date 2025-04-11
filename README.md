@@ -222,7 +222,13 @@ WHERE total_score = (SELECT score FROM final_table)
 ```
 ![Hình 9](Pictures/9.png)
 
-## Conclusion 📝
+## Đánh giá 📝
+
+### **Tổng Quan:**
+Nhìn trong trong bộ dữ liệu thì có tổng số lượng học sinh là 5000 người, về giá trị trung bình của tổng điểm trong bộ dữ liệu này bằng 75.12 điểm có độ lệch dao động khoảng hơn 14 điểm. Về số giờ trung bình là 6.49 giờ /ngày, có thể biến động trong biên độ dao động chênh lệch với biên độ là khoảng hơn 7 tiếng và số giờ học trung bình trong một tuần đạt 17.66 tiếng, có biên độ dao động, chênh lệch là hơn 1 tiếng giữa các biến trong bộ dữ liệu.
+
+Về giá trị trung vị về điểm số của bộ dữ liệu này là 74.95 điểm, ý nghĩa của chỉ số này thể hiện đây là điểm số nằm ở trung tâm của bộ dữ liệu này, và có khoảng gần 50% số lượng học sinh có điểm số trên và dưới mức điểm 74.95 này. Qua đó cho thấy phần lớn người học trong lớp này tương đối khá, giỏi
+
 
 ## [Hình ảnh từ file Power BI](https://github.com/HuyNguyen255/Student_Grades/blob/bfb12fb119c8d845daf749716ad553e1bb29f6a6/Student_Grading.pbix)
 
